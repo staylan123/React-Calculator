@@ -1,0 +1,43 @@
+.keypad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, 100px);
+  padding: 10px;
+}
+
+/* KEY COLORS */
+.keypad > .zero {
+  grid-column: 1/3;
+  background: orange;
+}
+
+.keypad > .functional {
+  background: white;
+}
+
+.keypad > .operational {
+  color: white;
+  background: rgb(63, 42, 253);
+}
+
+.keypad > button {
+  border: 3px solid black;
+  border-radius: 25px;
+  font-size: 35px;
+  background-color: rgb(209, 209, 209);
+}
+
+/* KEY HOVER COLORS */
+.keypad > .zero:hover {
+  background: rgb(219, 144, 3);
+}
+
+.keypad > .operational:hover {
+  background: rgb(52, 35, 206);
+}
+
+/* Same color for Functional */
+.keypad > button:hover {
+  background: rgb(175, 175, 175);
+}

@@ -1,0 +1,10 @@
+.result {
+  font-size: 50px;
+  padding: 15px;
+  color: white;
+  text-align: right;
+  background: rgb(0, 0, 0);
+  border-radius: 25px;
+  height: 80px;
+  width: 450px;
+}
