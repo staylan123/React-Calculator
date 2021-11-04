@@ -5,6 +5,7 @@ const Keypad = ({ calc, setCalc }) => {
   // Eval expression
   const calculateExpression = () => {
 
+    // Prevents user from evaluating an empty value
     if(calc === "") {
       setCalc(0)
       return;
